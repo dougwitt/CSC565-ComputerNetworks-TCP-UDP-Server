@@ -48,12 +48,18 @@ g++ TCPClient.cpp -o Cal
 
 #### **Compiling and running UDP Server**
 
+To compile and run the UDP Server, enter the following command:
+
+
 ```
 g++ UDPServer.cpp -o UDPServer
 ./UDPServer
 ```
 
 #### **Compiling and running UDP Client**  
+
+To compile and run the UDPClient, enter the following command (replace placeholder values with actual loan details):
+
 
 ```
 g++ UDPClient.cpp -o UDPClient
@@ -65,7 +71,6 @@ g++ UDPClient.cpp -o UDPClient
 The client communicates with the server using a simple text-based protocol:
 
 * Request Format: The client sends a request in the format: <loan_amount> <term_years> <interest_rate>.
-
 * Response Format: The server responds with: <monthly_payment>, <total_payment>.
 
 ### **TCP Communication**
